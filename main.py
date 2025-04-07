@@ -1,14 +1,18 @@
 from dataclasses import dataclass
 from scuola import Student, Teacher, Casa, Scuola, Person
 # import voto
-# importiamo un solo nome, che è il
-# nome del modulo "voto", e poi accedo alle varie
+# importiamo un solo nome, che è il nome del modulo "voto", e poi accedo alle varie
 # classi con la notazione voto.Voto, voto.Libretto
 
-from voto.voto import Voto, Libretto
+from voto.modello import Libretto
+
 # importiamo più nomi indipendenti, Voto, Libretto
+import sys
 import flet
 
+from voto.voto import Voto
+
+print( sys.path)
 # from voto import *
 # importa tutti i nomi in voto in maniera indipendente, Voto, Libretto, cfuTot
 
